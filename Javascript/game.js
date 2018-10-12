@@ -28,5 +28,5 @@ document.onkeypress = function(event) {
     }
 }   
     document.getElementById('wins').innerHTML = "Wins: " + wins;
-    document.getElementById('losses').innerHTML = "losses: " + losses;
+    document.getElementById('loses').innerHTML = "loses: " + loses;
     document.getElementById('guesses').innerHTML = "Guesses left: " + guesses;
